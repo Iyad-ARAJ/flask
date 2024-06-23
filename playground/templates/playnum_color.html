@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<h1>WELCOME!</h1>
+
+<div class="boxes">
+
+    {% for i in range(0,num) %}
+        <div class="boxes">
+            <div class="box" style="background-color: {{ color }};">
+        </div>
+    
+    {% endfor %}
+
+{% endblock  %}
